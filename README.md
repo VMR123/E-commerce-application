@@ -4,6 +4,8 @@ This project was developed as part of a research internship under Prof. Jaidhar 
 
 Implemented by Vishwa Mohan Reddy G (211IT082), 4th year BTech, Department of Information Technology, NITK.
 
+Find the demo of the working application at (https://vmr-e-commerce-application.vercel.app/)
+
 ## Table of Contents
 
 - [Features](#features)
