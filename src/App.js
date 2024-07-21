@@ -15,6 +15,7 @@ import { Cart } from './Components/Cart';
 import { AddProducts } from './Components/AddProducts';
 import { Cashout } from './Components/Cashout';
 import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';  // Import Toastify CSS
 
 export class App extends Component {
 
@@ -47,6 +48,13 @@ export class App extends Component {
             <ProductsContextProvider>
                 <CartContextProvider>
                     <BrowserRouter>
+                        <header style={{ textAlign: 'center', padding: '10px 0' }}>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/NITK_Emblem.png" alt="Institute Logo" style={{ height: '80px' }} />
+                            <h1>E-Commerce Website</h1>
+                            <h2>Department of Information Technology</h2>
+                            <h3>National Institute of Technology Karnataka</h3>
+                            <h4>Implemented by Vishwa Mohan Reddy G (211IT082)</h4>
+                        </header>
                         <ToastContainer />
                         <Routes>
                             {/* home */}
@@ -63,6 +71,9 @@ export class App extends Component {
                             <Route path='/cashout' element={<Cashout user={this.state.user} />} />
                             <Route path='*' element={<NotFound />} />
                         </Routes>
+                        <footer style={{ textAlign: 'center', padding: '10px 0', marginTop: '20px', borderTop: '1px solid #ccc' }}>
+                            <p>@Vishwa Mohan Reddy G</p>
+                        </footer>
                     </BrowserRouter>
                 </CartContextProvider>
             </ProductsContextProvider>
