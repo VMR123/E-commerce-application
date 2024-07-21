@@ -50,10 +50,10 @@ export class App extends Component {
                     <BrowserRouter>
                         <header style={{ textAlign: 'center', padding: '10px 0' }}>
                             <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/NITK_Emblem.png" alt="Institute Logo" style={{ height: '80px' }} />
-                            <h1>E-Commerce Website</h1>
-                            <h2>Department of Information Technology</h2>
-                            <h3>National Institute of Technology Karnataka</h3>
-                            <h4>Implemented by Vishwa Mohan Reddy G (211IT082)</h4>
+                            <h1>E-Commerce Application</h1>
+                            <h4>Department of Information Technology</h4>
+                            <h5>National Institute of Technology Karnataka</h5>
+                            <h6>Implemented by Vishwa Mohan Reddy G (211IT082)</h6>
                         </header>
                         <ToastContainer />
                         <Routes>
